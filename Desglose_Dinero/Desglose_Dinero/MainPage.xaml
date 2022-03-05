@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desglose_Dinero.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" >
+
+        <Label Text="Desgloce de Dinero" FontSize="Medium" TextColor="AliceBlue" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label Text="Tipo de moneda de la cantidad que se ingresara" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Button Text="Quetzales" x:Name="Qles" Clicked="Qles_Clicked" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Button Text="Dolares" x:Name="Dolares" Clicked="Dolar_Clicked" VerticalOptions="Center" HorizontalOptions="Center"/>
+    </StackLayout>
+
+</ContentPage>

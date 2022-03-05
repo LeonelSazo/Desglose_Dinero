@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desglose_Dinero.Resutl_Dl">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Ingrese la cantidad en dolares" FontSize="Medium"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Entry Placeholder="                     Ingrese" x:Name="CantDl" Keyboard="Numeric"/>
+            <Button Text="Desglosar" x:Name="CalcDl" Clicked="CalcDl_Clicked" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

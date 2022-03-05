@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Desglose_Dinero.Result">
+    <ContentPage.Content  >
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Ingrese la cantidad en Quetzales" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" TextColor="AliceBlue" x:Name="lblQ"/>
+            <Entry Placeholder="                         Ingrese" x:Name="Cant" Keyboard="Numeric" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+
+            <Button Text="Desglosar" x:Name="Calcular" Clicked="Calcular_Clicked" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
